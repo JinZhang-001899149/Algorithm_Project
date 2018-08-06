@@ -92,16 +92,4 @@ public class ImageUtil {
         return list;
     }
 
-
-//    public int[] transGrayToBinaryValue(double[] input){
-//        int[] binaryArray = new int[input.length];
-//        for(int i=0;i<input.length;i++){
-//            if(Double.compare(0.7, input[i]) >= 0){
-//                binaryArray[i] = 1;
-//            }else{
-//                binaryArray[i] = 0;
-//            }
-//        }
-//        return binaryArray;
-//    }
 }
