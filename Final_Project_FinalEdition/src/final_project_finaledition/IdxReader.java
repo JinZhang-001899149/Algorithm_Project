@@ -25,16 +25,16 @@ public class IdxReader {
         FileInputStream inImage = null;
         FileInputStream inLabel = null;
 
-        String inputImagePath = "C:\\Users\\JIN\\Documents\\NetBeansProjects\\Final_Project_FinalEdition\\train-images.idx3-ubyte";
-        String inputLabelPath = "C:\\Users\\JIN\\Documents\\NetBeansProjects\\Final_Project_FinalEdition\\train-labels.idx1-ubyte";
         
-      
-        File folder = new File("C:\\Users\\JIN\\Documents\\NetBeansProjects\\Final_Project_FinalEdition\\Train");
+        String inputImagePath = "D:\\download\\train-images.idx3-ubyte";
+        String inputLabelPath = "D:\\download\\train-labels.idx1-ubyte";
+//        String inputImagePath = "C:\\Users\\JIN\\Documents\\NetBeansProjects\\Final_Project_FinalEdition\\train-images.idx3-ubyte";
+//        String inputLabelPath = "C:\\Users\\JIN\\Documents\\NetBeansProjects\\Final_Project_FinalEdition\\train-labels.idx1-ubyte";
+             
+        File folder = new File("D:\\download\\Train");
         folder.mkdir();
-  
 
-
-        String outputPath = "C:\\Users\\JIN\\Documents\\NetBeansProjects\\Final_Project_FinalEdition\\Train";
+        String outputPath = "D:\\download\\Train";
         
 
         int[] hashMap = new int[10]; 
