@@ -30,12 +30,12 @@ public class ImageUtil {
     public List<String> getImageList(String type){
         File file = null;
         if(type.equals("train")) {
-            file = new File("D:\\download\\Train");
-//            file = new File("C:\\Users\\JIN\\Documents\\NetBeansProjects\\Final_Project_FinalEdition\\Train");
+  //          file = new File("D:\\download\\Train");
+           file = new File("C:\\Users\\JIN\\Documents\\Algorithm_Assignment\\Algorithm_Project\\Final_Project_FinalEdition\\Train");
         }
         if(type == "test") {
-            file = new File("D:\\download\\Test");}
-//            file = new File("C:\\Users\\JIN\\Documents\\NetBeansProjects\\Final_Project_FinalEdition\\test");}
+   //         file = new File("D:\\download\\Test");}
+           file = new File("C:\\Users\\JIN\\Documents\\Algorithm_Assignment\\Algorithm_Project\\Final_Project_FinalEdition\\test");}
         
         List<String> fileList = new ArrayList<String>();
         if(file.isDirectory()){
