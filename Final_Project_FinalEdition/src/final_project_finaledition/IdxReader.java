@@ -26,15 +26,17 @@ public class IdxReader {
         FileInputStream inLabel = null;
 
         
-        String inputImagePath = "D:\\download\\train-images.idx3-ubyte";
-        String inputLabelPath = "D:\\download\\train-labels.idx1-ubyte";
-//        String inputImagePath = "C:\\Users\\JIN\\Documents\\NetBeansProjects\\Final_Project_FinalEdition\\train-images.idx3-ubyte";
-//        String inputLabelPath = "C:\\Users\\JIN\\Documents\\NetBeansProjects\\Final_Project_FinalEdition\\train-labels.idx1-ubyte";
+        //String inputImagePath = "D:\\download\\train-images.idx3-ubyte";
+        //String inputLabelPath = "D:\\download\\train-labels.idx1-ubyte";
+        String inputImagePath = "C:\\Users\\JIN\\Documents\\Algorithm_Assignment\\Algorithm_Project\\Final_Project_FinalEdition\\train-images.idx3-ubyte";
+        String inputLabelPath = "C:\\Users\\JIN\\Documents\\Algorithm_Assignment\\Algorithm_Project\\Final_Project_FinalEdition\\train-labels.idx1-ubyte";
              
-        File folder = new File("D:\\download\\Train");
+        //File folder = new File("D:\\download\\Train");
+        File folder = new File("C:\\Users\\JIN\\Documents\\Algorithm_Assignment\\Algorithm_Project\\Final_Project_FinalEdition\\Train");
         folder.mkdir();
 
-        String outputPath = "D:\\download\\Train";
+        //String outputPath = "D:\\download\\Train";
+        String outputPath = "C:\\Users\\JIN\\Documents\\Algorithm_Assignment\\Algorithm_Project\\Final_Project_FinalEdition\\Train";
         
 
         int[] hashMap = new int[10]; 
