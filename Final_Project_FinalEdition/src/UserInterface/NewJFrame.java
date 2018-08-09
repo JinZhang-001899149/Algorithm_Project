@@ -7,7 +7,7 @@ package UserInterface;
 
 /**
  *
- * @author JIN
+ * @author Chung-Yang Li, JIN
  */
 public class NewJFrame extends javax.swing.JFrame {
 
