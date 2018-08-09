@@ -12,7 +12,7 @@ package UserInterface;
 public class NewJFrame extends javax.swing.JFrame {
 
     /**
-     * Creates new form NewJFrame2
+     * Creates new form NewJFrame
      */
     public NewJFrame() {
         initComponents();
