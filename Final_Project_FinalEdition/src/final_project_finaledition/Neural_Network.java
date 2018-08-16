@@ -221,4 +221,14 @@ public class Neural_Network {
     public boolean isTrain() {
         return train;
     }
+
+    public int[] getSizes() {
+        return sizes;
+    }
+
+    public int getLayerNum() {
+        return layerNum;
+    }
+    
+    
 }
