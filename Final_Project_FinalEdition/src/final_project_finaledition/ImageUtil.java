@@ -49,7 +49,7 @@ public class ImageUtil {
                 }
             }
         }
-        System.out.println("Read " + fileList.size() + " images for " + type + "ing");
+        //System.out.println("Read " + fileList.size() + " images for " + type + "ing");
         return fileList;
     }
 
